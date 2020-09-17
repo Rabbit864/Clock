@@ -1,5 +1,6 @@
 window.onload = function() {
   let clock = document.getElementById('clock');
+  setInterval(changeTime,1000);
 }
 
 function changeTime(){
@@ -7,5 +8,5 @@ function changeTime(){
   clock.textContent = time;
 }
 
-setInterval(changeTime,1000);
+
 
